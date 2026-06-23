@@ -1,0 +1,9 @@
+{
+  "outputDirectory": "dist/client",
+  "rewrites": [
+    {
+      "source": "/((?!api|images|assets|_next|favicon.ico).*)",
+      "destination": "/api"
+    }
+  ]
+}
